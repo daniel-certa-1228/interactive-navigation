@@ -1,0 +1,85 @@
+/*=============================
+	Global Styles
+=============================*/
+
+/*=============================
+	Element Styles
+=============================*/
+body {
+	background-color: #dee8f7;
+	font-family: sans-serif;
+}
+
+footer {
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	margin: auto;
+	text-decoration: underline;
+}
+
+h4 {
+	margin: 0;
+}
+
+/*=============================
+	Link Styles
+=============================*/
+
+a {
+	text-decoration: none;
+	color: #038206;
+}
+
+
+.nav_link {
+	display: inline-block;
+	padding: 1em;
+	margin: 0 10px 0 0;
+	border-radius: 100%;
+	background-color: lightgrey;
+	width: 60px;
+	text-align: center;
+}
+
+.nav_link:visited {
+	color: #038206;
+}
+
+.nav_link:hover {
+	color: #03af06;
+	background-color: lightyellow;
+}
+
+.nav_link:active {
+	width: 70px;
+}
+/*=============================
+	Class Styles
+=============================*/
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.nav-ul {
+	list-style: none;
+	padding: 0;
+}
+
+.nav-ul li {
+  display: inline-block;
+  text-decoration: none;
+  /*position: relative;*/
+}
+
+.contact-article {
+	font-size: 1.3em
+}
+
+.contact-details {
+	margin-top: .5em;
+}
+
